@@ -1,0 +1,67 @@
+# 编译文件
+target/
+*.class
+
+# IDE
+.idea/
+*.iml
+.vs/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# 构建输出
+*.war
+*.ear
+*.jar
+
+# 日志
+*.log
+server.err.log
+server.out.log
+debug.log
+
+# 数据库
+*.db
+*.db-journal
+*.db-shm
+*.db-wal
+
+# 临时文件
+*.tmp
+*.bak
+*.backup
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 视频文件 (太大，不适合 Git)
+*.mp4
+*.avi
+*.mov
+
+# Maven
+dependency/
+dependency-reduced-pom.xml
+
+# Gradle (Android)
+android-app/.gradle/
+android-app/build/
+
+# 下载的文件
+ngrok.exe
+ngrok.zip
+
+# 环境变量文件
+env.bat
+.env
+*.env
+
+# 其他
+*.zip
+*.tar
+*.tar.gz

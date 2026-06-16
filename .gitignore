@@ -1,0 +1,34 @@
+# JDK (large binary)
+jdk21/
+
+# Maven build output
+ZYmusic/target/
+
+# User data (runtime database)
+ZYmusic/runtime/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Large binary files
+ffmpeg.exe
+*.db
+*.mv.db
+
+# Desktop app dependency JARs (large, can be downloaded via Maven)
+ZYMusic-Desktop/ZY音乐/app/*.jar
+ZYMusic-Desktop/ZY音乐/app/ffmpeg.exe
+ZYMusic-Desktop/ZY音乐/tools/ffmpeg.exe
+# Only keep the main.jar and FileServlet.class for the desktop app
+
+# WAR file exceeds GitHub 100MB limit (rebuild with mvn package)
+ZYMusic-Desktop/ZY音乐/ZYMusic.war
